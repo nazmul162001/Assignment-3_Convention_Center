@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Convention-Center</title>
+  <!-- Font-Awesome CDN LINK-->
+  <script src="https://kit.fontawesome.com/3a00588570.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap CDN LINK-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- My stylesheet  -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <!-- Header  -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand logo" href="#">ChaiPai Convention Center</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto text-center">
+            <li class="nav-item">
+              <a class="nav-link text-black" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#contact">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#subscribe">Subscribe</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header> <!--END Header-->
+
+<!--<------------------------
+        Main/Hero-section          
+    <----------------------->
+<main>
+  <section class="hero">
+    <div class="container-fluid m-0 p-0 overflow-hidden">
+      <div class="row">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <!-- carousel-item-1  -->
+            <div class="carousel-item active">
+              <img src="images/weeding-1.jpg" class="img-fluid" alt="slider-image">
+              <div class="carousel-caption ">
+                <h2 class="hero-title">The perfect venue for your <br> next event</h2>
+                <p class="hero-text">There is some memorable capture on Your <br> weeding party. It's a very special to You. </p>
+                <button class="btn btn-light"><a href="https://bdwedding.com/" target="_blank">Book Now</a></button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/banner.png" class="d-block w-100 img-fluid" alt="slider-image">
+              <div class="carousel-caption">
+                <h2 class="hero-title">Probabbly This is your best <br> Choice</h2>
+                <p class="hero-text">You can book for your weeding, we are always open <br> Feel free to preebook your date</p>
+                <button class="btn btn-light"><a href="https://bdwedding.com/" target="_blank">Book Now</a></button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/weeding-3.jpg" class="d-block w-100 img-fluid" alt="slider-image">
+              <div class="carousel-caption">
+                <h2 class="hero-title">Try our best to manage <br> Weeding well</h2>
+                <p class="hero-text">Always we are trying to do our best for your weeding. <br> Your satisfaction is our main target</p>
+                <button class="btn btn-light"><a href="https://bdwedding.com/" target="_blank">Book Now</a></button>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section> <!--END Hero/Carousel-->
+
+<!--<------------------------
+        Album Section          
+    <----------------------->
+
+<section class="album my-5 py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="content-left">
+          <img class="img-fluid" src="images/wedding.png" alt="">
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-12 d-flex align-items-center">
+        <div class="content-right">
+          <h2 class="album-title">Every moment is Precious</h2>
+          <p>Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.</p>
+          <button class="btn btn-primary">Explore our album <span><i class="fas fa-long-arrow-alt-right"></i></span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> <!--END Album section-->
+
+<!-- toast -->
+
+<div class="toast show text-black bg-white ms-auto" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex">
+    <div class="toast-body border-slice d-flex align-items-center">
+     <span class="pe-2"><i class="fas fa-gift"></i></span> 20% off on next booking
+    </div>
+    <button type="button" class="btn-close btn-close-dark me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+  </div>
+</div>
+
+<!--<------------------------
+        Our Package          
+    <----------------------->
+
+<section id="subscribe" class="our-package">
+  <div class="container">
+    <h2 class="text-center text-black">Our Package</h2>
+    <div class="row pt-5">
+      <!-- Package 1 -->
+      <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+        <div class="card-group">
+          <div class="card border-0">
+            <div class="card-body pt-5">
+              <h2 class="card-title">$300</h2>
+              <h5>Business fair</h5>
+              <p class="card-text text-muted">For most businesses event like book fair, craft fair.</p>
+              <p class="access text-muted"> <i class="fas fa-check"></i> limited space access</p>
+              <p class="access text-muted"> <i class="fas fa-check"></i> Security facility</p>
+              <p class="access text-muted"> <i class="fas fa-check"></i> event support</p>
+              <p class="access text-muted"> <i class="fas fa-check"></i>Decoration Design</p>
+              <p class="access text-muted"> <i class="fas fa-check"></i> Per day bill</p>
+              <div class="d-grid gap-2 col-8 mx-auto">
+                <button class="btn rounded-pill btn-common">Choose Plan</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+            <!-- Package 2 -->
+      <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+        <div class="card-group">
+          <div class="card border-0">
+            <div class="card-body pt-5">
+              <h2 class="card-title">$500</h2>
+              <h5>Weeding Basic</h5>
+              <p class="card-text text-muted">For weddings with basic plan and limited item</p>
+              <p class="access text-muted"> <i class="fas fa-check"></i> Full space access</p>
+              <p class="access text-muted"> <i class="fas fa-check"></i> Food Arragement</p>
+              <p class="access text-muted"> <i class="fas fa-check"></i> Management Support</p>
+              <p class="access text-muted"> <i class="fas fa-check"></i>Decoration Design</p>
+              <p class="access text-muted"> <i class="fas fa-check"></i> Billed as shift</p>
+              <div class="d-grid gap-2 col-8 mx-auto">
+                <button class="btn rounded-pill btn-common">Choose Plan</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Package 3 -->
+      <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+        <div class="card-group">
+          <div class="card border-0">
+            <div class="card-body bg-custom position-relative">
+              <span class="position-absolute start-100 translate-middle badge rounded-pill bg-danger">Hot</span>
+              <h2 class="card-title text-light">$800</h2>
+              <h5 class="text-light">Weeding Plus</h5>
+              <p class="card-text text-light">For most weedings with premium plans</p>
+              <p class="access text-light"> <i class="fas fa-check"></i> Full space access</p>
+              <p class="access text-light"> <i class="fas fa-check"></i> Dedicated team</p>
+              <p class="access text-light"> <i class="fas fa-check"></i> Buffet food</p>
+              <p class="access text-light"> <i class="fas fa-check"></i> Premium Decoration</p>
+              <p class="access text-light"> <i class="fas fa-check"></i> Pay as plan</p>
+              <div class="d-grid gap-2 col-8 mx-auto">
+                <button class="btn rounded-pill btn-common2"><a href="#">Choose Plan</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Package 4 -->
+      <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+        <div class="card-group">
+          <div class="card border-0">
+            <div class="card-body pt-5">
+              <h2 class="card-title">$1200</h2>
+              <h5>Corporate event</h5>
+              <p class="card-text text-muted">For most corporate business events</p>
+              <p class="access text-muted"> <i class="fas fa-check"></i> Full space access</p>
+              <p class="access text-muted"> <i class="fas fa-check"></i> Dedicated team</p>
+              <p class="access text-muted"> <i class="fas fa-check"></i> Buffet food</p>
+              <p class="access text-muted"> <i class="fas fa-check"></i> Premium Decoration</p>
+              <p class="access text-muted"> <i class="fas fa-check"></i>Pay as plan</p>
+              <div class="d-grid gap-2 col-8 mx-auto">
+                <button class="btn rounded-pill btn-common">Choose Plan</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> <!--END Our Package-->
+
+<!--<----------------------------
+    Our Weeding Gallery section         
+    <---------------------------->
+<section class="weeding-gallery py-5">
+  <div class="container">
+    <div class="weeding-caption text-center">
+      <h2>Our Weeding Gallery</h2>
+      <p class="text-muted">This is the most famouse conventin center. Our <br>f all service are premium. Clients saticfaction is our main target. <br> Here is some weeding collection</p>
+    </div>
+    <div class="row g-2 text-center">
+      <div class="col-lg-4 col-md-6 col-sm-12 col-12 overflow-hidden custom-shadow">
+        <img class="img-fluid w-100" src="images/weeding-5.jpg" alt="">
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 col-12 overflow-hidden custom-shadow">
+        <img class="img-fluid w-100" src="images/weeding-6.jpg" alt="">
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 col-12 overflow-hidden custom-shadow">
+        <img class="img-fluid w-100" src="images/weeding-7.jpg" alt="">
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 col-12 overflow-hidden custom-shadow">
+        <img class="img-fluid w-100" src="images/weeding-33.jpg" alt="">
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 col-12 overflow-hidden custom-shadow">
+        <img class="img-fluid w-100" src="images/weeding-22.jpg" alt="">
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 col-12 overflow-hidden custom-shadow">
+        <img class="img-fluid w-100" src="images/weeding-11.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--<----------------------------
+      Frequently Question / FAQ         
+    <--------------------------->
+
+<section class="frequently-question my-5">
+  <div class="container">
+    <h2 class="text-center py-5">Frequently Ask Question</h2>
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center order-2 order-md-1 order-lg-1">
+          <div class="accordion-content">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    What’s the difference between event design and event planning? 
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                  <div class="accordion-body text-muted">The Albuquerque Convention Center is a multi-purpose event complex with over 270,000 square feet of flexible event space.We are located in the heart of vibrant downtown Albuquerque and are proudly managed by SMG. The ACC, one of the premier venues in the Southwest, is nestled between the breathtaking Sandia Mountains and the majestic Rio Grande River.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    How early do we need to start planning an event
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                  <div class="accordion-body text-muted">The ACC offers 27 flexible rooms which can hold an intimate gathering of 10 people or a large celebration for 1,800. Our stunning Ballroom offers 31,000 square feet and features fully customizable colored LED lighting to perfectly match your theme.
+                    Our professional staff is here to assist you at every phase of planning your wedding celebration. From menu selection and décor to hotel accommodations and preferred vendor referrals, we stop at nothing to deliver a most memorable occasion.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    What is your refund and cancellation policy?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                  <div class="accordion-body text-muted">ASM Global is the world’s leading producer of entertainment experiences. It is the global leader in venue and event strategy and management – delivering locally tailored solutions and cutting-edge technologies to achieve maximum results for venue owners. The company’s elite venue network spans five continents, with a portfolio of more than 325 of the world’s most prestigious arenas, stadiums, convention and exhibition centers, and performing arts venues.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                    How do you keep budgets on track?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                  <div class="accordion-body text-muted">From ceremony to reception, the Irving Convention Center at Las Colinas is a lavish venue perfect for your wedding. The impressive copper and glass building makes a grand impression to your family and friends as they arrive, and you will feel like royalty as you all walk through the vast entrance. And it isn't just the building that stands out. The entire area around the Irving Convention Center provides romantic accents that make for breathtaking weddings.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center order-1 order-md-2 order-lg-2">
+        <img class="img-fluid w-100 h-75" src="images/people.png" alt="FAQ image">
+      </div>
+    </div>
+  </div>
+</section> <!--END FAQ Section-->
+
+<!--<------------------------
+            Footer          
+    <----------------------->
+
+<footer>
+  <div class="container-fluid">
+    <div class="row text-light bg-black p-4">
+      <div class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center justify-content-center  order-2 order-md-1 order-lg-1">
+        <p class="footer-text text-muted">©2022 ChaiPai Center.All rights reserved</p>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center justify-content-center order-1 order-md-2 order-lg-2">
+        <div class="my-app-store">
+          <h2 class="pb-4 text-muted">Get the App</h3>
+          <!-- app store  -->
+          <a class="text-light p-3" href="https://apps.apple.com/us/app/programming-hero-coding-fun/id1478201849" target="_blank">
+            <div class="app-store d-flex  border border-white rounded">
+              <div class="icon d-flex align-items-center"><i class="fab fa-apple"></i></div>
+              <div class="icon-content">
+                <h6>Download on the</h6>
+                <h3>App Store</h3>
+              </div>
+            </div>
+          </a>
+          <!-- google play  -->
+
+          <a class="text-light p-3" href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp" target="_blank">
+            <div class="google-play d-flex mt-3 border border-white rounded">
+              <div class="icon d-flex align-items-center"><i class="fab fa-google-play"></i></div>
+              <div class="icon-content">
+                <h6>GET IN ON</h6>
+                <h3>Google Play</h3>
+              </div>
+          </div>
+          </a>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</main>
+<!-- script  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>

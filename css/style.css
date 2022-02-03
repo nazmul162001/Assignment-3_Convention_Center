@@ -1,0 +1,117 @@
+/* import Google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,800&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/* font-family  */
+/* 
+font-family: 'Manrope', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+ */
+
+ /* //////PROJECT OVERVIEW////////
+ 1.     Header / Nav            //
+ 2.     Hero / Carousel         //
+ 3.     My Album                //
+ 4.     Toast                   //
+ 5.     Our Package             //
+ 6.     Our Top Weeding Gallery //
+ 7.     FAQ                     //
+ 8.     Footer                  //
+////////////////////////////////// */
+
+ /* reset css */
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ /* Common style/ Utilities */
+body{
+  width: 100%;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+
+/* our package / CUSTOM BG COLOR  */
+.fa-check{
+  padding: 5px;
+  background: rgba(82, 67, 194, 0.103693);
+  border-radius: 50%;
+}
+.btn-common{
+  background: #f496d22d;
+}
+.btn-common2{
+  background: #ffffff;
+}
+.bg-custom{
+  background-color:rgba(63, 135, 245, 1) ;
+  border-radius: 10px;
+}
+
+/* footer / CUSTOM FONT SIZE */
+.fa-google-play,
+.fa-apple{
+  font-size: 40px;
+  padding: 0 15px;
+}
+footer h6{
+  font-size: 12px;
+}
+footer h3{
+  font-size: 20px;
+}
+
+/* weeding gallery / Shadow */
+.weeding-gallery img{
+  padding: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transition: transform .2s ease-in;
+}
+.weeding-gallery img:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  transform: scale(1.02);
+}
+
+.border-slice{
+  border-left: 8px solid rgba(0, 0, 255, 0.664);
+}
+.fa-gift{
+  font-size: 20px;
+  color: rgba(0, 0, 255, 0.425);
+}
+/* SOME MEDIA QUERY */
+@media only screen and (max-width: 667px) {
+  .hero-title {
+    font-size: 20px;
+  }
+  .hero-text{
+    font-size: 14px;
+  }
+  .about-info{
+    padding-top: 60px;
+  }
+  .card-group{
+    padding: 0 10px;
+  }
+  .hero img{
+    height: 300px;
+  }
+  .footer-text{
+    font-size: 14px;
+  }
+}
+
+/* for logo size */
+@media only screen and (max-width: 371px){
+  .logo{
+    font-size: 10px;
+  }
+  .footer-text{
+    font-size: 10px;
+  }
+}
